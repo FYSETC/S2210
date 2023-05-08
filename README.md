@@ -6,7 +6,7 @@
 The S2210 driver module is designed based on Trinamic's new generation chip TMC2210. Thanks to the brand-new architecture and process, its peak current can reach 3.0A, its continuous current can reach 2.1A, and it can withstand an input voltage up to 36V. TMC2100. All its functions only need to configure the IO hardware, no software programming is required.
 
 # 2.Features
----
+
 
 - Hardware compatible with StepStick and Pololu A4988 Stepper Driver
 - Components on bottom PCB side for better heat emission
@@ -20,7 +20,7 @@ The S2210 driver module is designed based on Trinamic's new generation chip TMC2
 - Supply voltage 4.5-36V
 
 # 3. Specifications Comparison
----
+
 
 Model                               |TMC2100|TMC2209|TMC2210
 :----:                                     |:----:|------                                     |------                                     
@@ -41,7 +41,7 @@ stallGuard | no| yes | no
 dcStep | no| yes | no 
 
 # 4. Pin Functions
----
+
 
 ![image-20230508100636595](assets/image-20230508100636595.png)
 
@@ -75,7 +75,7 @@ CFG6	|Onboard pulled up，CONFIGURATION OF HOLD CURRENT REDUCTION
 CFG7	|Onboard pulled down，CONFIGURATION OF HOLD CURRENT REDUCTION
 
 # 5. Interface Resources
----
+
 
 ##  Wiring Diagram
 
@@ -196,10 +196,9 @@ Datasheet: https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2
 
 ## Shop
 
----
+
 - 
 
 ## Tech Support
 
----
 Please submit any technical issue into our [forum](http://forum.fysetc.com/) 
