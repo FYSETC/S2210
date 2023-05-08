@@ -190,7 +190,7 @@ VCC_IO |StealthChop2 operation
 
 SCH: https://github.com/FYSETC/S2210/blob/main/TMC2210%20V10.pdf
 
-Datasheet: https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2210_datasheet_rev1.pdf
+Datasheet: https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2210_V10_SCH.pdf
 
 
 
