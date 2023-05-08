@@ -5,8 +5,6 @@
 
 The S2210 driver module is designed based on Trinamic's new generation chip TMC2210. Thanks to the brand-new architecture and process, its peak current can reach 3.0A, its continuous current can reach 2.1A, and it can withstand an input voltage up to 36V. TMC2100. All its functions only need to configure the IO hardware, no software programming is required.
 
-S2210驱动模块是基于Trinamic新一代芯片TMC2210设计而成。得益于全新的架构和工艺，其峰值电流可达3.0A，持续电流2.0A，并且能承受高达36V的输入电压，其综合驱动能力略高于TMC2209(不考虑sensor-less homing)，远超TMC2100。其所有功能仅需要对IO进行硬件配置即可，不需要软件编程。
-
 # 2.Features
 ---
 
