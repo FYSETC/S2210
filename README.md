@@ -68,7 +68,7 @@ CFG5	|Chip internal pull-up，SELECTION OF CHOPPER MODE
 Index	|Open drain index pulse output indicating, microstep 0 position of coil B.
 Error	|Open-drain error output. Use external pullup resistor.<br/>In system reset state, this pin is actively pulled low to indicate reset condition to external controller.
 NC	|No pins connected
-	|**Onboard Jumper**
+&nbsp;	|**Onboard Jumper**
 CFG3	|Onboard pulled down，CONFIGURATION OF RUN CURRENT IRUN (ALONG WITH IREF RESISTOR), DO NOT CHANGE DURING OPERATION
 CFG4	|Onboard pulled down，DIGITAL CURRENT SCALE (MAY BE CHANGED DURING OPERATION)
 CFG6	|Onboard pulled up，CONFIGURATION OF HOLD CURRENT REDUCTION
