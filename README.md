@@ -209,10 +209,9 @@ Any configuration such as [tmc2209 stepper_x] is no longer needed.
 
 ## NOTE：
 
-1. When using on Ramps1.4 or MKS Gen, please remove the three jumper caps under the socket.
-2. <font color="red">**Pay attention to the direction.**</font>
-3. The heat sink is directly attached to the PCB.
-4. The motor direction is the opposite of 4988 and 8825. If you want to replace the 4988 directly, please adjust the firmware or adjust the motor connection.
+1. <font color="red">**Pay attention to the direction.**</font>
+2. The heat sink is directly attached to the PCB.
+3. The motor direction is the opposite of 4988 and 8825. If you want to replace the 4988 directly, please adjust the firmware or adjust the motor connection.
 
 
 
