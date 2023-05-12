@@ -177,6 +177,36 @@ CFG5 | CHOPPER MODE
 GND | SpreadCycle operation
 VCC_IO |StealthChop2 operation
 
+# 7. How to config the code in klipper/marlin
+
+S2210 only needs to configure the corresponding STEP, DIR, EN pins on the software, no additional configuration is required.
+It is worth noting that the subdivision parameters on the software need to be consistent with the jumpers on the hardware.
+
+For example, the X-axis configuration in klipper is as follows:
+
+```c++
+[stepper_x]
+##	Connected to X-MOT (B Motor)
+step_pin: PE11
+dir_pin: PE10
+enable_pin: !PE9
+rotation_distance: 40
+microsteps: 8
+full_steps_per_rotation:200  #set to 400 for 0.9 degree stepper
+endstop_pin: ^PB14
+position_min: 0
+
+##--------------------------------------------------------------------
+position_endstop: 300
+position_max: 300
+##--------------------------------------------------------------------
+homing_speed: 25   #Max 100
+homing_retract_dist: 5
+homing_positive_dir: true
+```
+
+Any configuration such as [tmc2209 stepper_x] is no longer needed.
+
 ## NOTE：
 
 1. When using on Ramps1.4 or MKS Gen, please remove the three jumper caps under the socket.
