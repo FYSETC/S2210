@@ -102,6 +102,7 @@ Three different full-scale current ranges can be configured through the pins wit
 Connect a reference resistor RREF from IREF to GND. Together with pins CFG3 and CFG2, the full scale current range IFS is set based on the external resistor . 
 
 The equation below shows the full-scale current IFS as a function of the RREF shunt resistor connected to pin IREF and the configuration pin setting. The proportionality constant KIFS is defined by the CFG2 and CFG3 setting. The external resistor RREF can range between 12kΩ and 60kΩ.
+
 $$
 I_{FS}=K_{IFS}(KV)/R_{REF}(kΩ)
 $$
@@ -132,6 +133,7 @@ IFS Full Scale RMS Current in Ampere (A RMS) based on CFG2/CFG3 Pin Settings and
 **According to the circuit of the module, we perform this demonstration calculation:**
 Rref: The resistor connected to the IREF pin, which consists of a 12K resistor and a maximum 50K adjustable resistor. The factory value of the adjustable resistor is generally located in the center, which is 25K, and all default Rref=37K.
 CFG3 is pulled down by default, which is equivalent to the GND level, and CFG2 is high when no external level is connected, so the default KIFS=24KV. 
+
 $$
 I_{FS}=K_{IFS}(KV)/R_{REF}(kΩ)=24(KV)/37(KΩ)=0.65A
 $$
