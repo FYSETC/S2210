@@ -162,7 +162,7 @@ VCC_IO| I = 100% of full scale current IRUN
 
 Microsteps Resolution Configuration for the Step Input，<font color="red">CFG1（**Onboard pulled down** ）CFG1（**Onboard pulled down** ）</font>，So the default is 8 microsteps.
 
-CFG1|CFG1| microsteps |Interpolation|Mode
+CFG1|CFG0| microsteps |Interpolation|Mode
 :----:|:----:|:----:|:----:|:----:
 GND	|GND	|8| 256 | StealthChop2 
 GND	|VIO| 16 | 256 | StealthChop2 
