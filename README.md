@@ -169,6 +169,8 @@ GND	|VIO| 16 | 256 | StealthChop2
 VIO|	GND| 32 | 256 | StealthChop2 
 VIO	|VIO	|  64   | 256 | StealthChop2 
 
+![TMC2210-wiring-diagram](assets/image.png)
+
 # 6. Other Configs 
 
 ## 6.1 Chopper Mode Selection
